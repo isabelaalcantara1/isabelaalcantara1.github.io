@@ -1,0 +1,13 @@
+.hero-welcome {
+  background-color: lightpink;
+  padding: 56px 16px;
+  border-radius: 10px;
+  margin: 5px 10px;
+}
+
+.hero-welcome-message {
+  background-color: #f2f2f2;
+  color: black;
+  border-radius: 10px auto;
+  margin: 5px 10px;
+}
