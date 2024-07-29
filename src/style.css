@@ -1,8 +1,21 @@
-.hero-welcome {
-  background-color: lightpink;
-  padding: 56px 16px;
-  border-radius: 10px;
-  margin: 5px 10px;
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap");
+
+:root {
+  --brand: #8246af;
+  --action: #ffa300;
+  --white: #ffff;
+  --base-light: #cdb5df;
+  --base-dark: #0d0711;
+  --black: #111111;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: var(--black);
+  scroll-behavior: smooth;
+  background-color: #f2f2f2;
 }
 
 .hero-welcome-message {
@@ -10,4 +23,129 @@
   color: black;
   border-radius: 10px auto;
   margin: 5px 10px;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Utilities */
+
+header .mobile-header {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mobile-nav a {
+  text-decoration: none;
+  color: var(--black);
+  display: block;
+}
+
+.desktop-nav {
+  display: none;
+}
+
+.hamburger-icon {
+  height: 50px;
+}
+
+.hero-welcome {
+  background-color: var(--brand);
+  padding: 56px 16px;
+  border-radius: 10px;
+  margin: 5px 10px;
+}
+
+.hero-welcome h1 {
+  font-size: 3rem;
+  margin-bottom: 24px;
+  color: var(--white);
+}
+
+.hero-welcome-message {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+.work {
+  background-color: var(--brand);
+  padding: 56px 16px;
+  border-radius: 10px;
+  margin: 5px 10px;
+}
+
+.work h2 {
+  font-size: 2rem;
+  margin-bottom: 24px;
+  color: var(--white);
+}
+
+.work-description {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+.about-me {
+  background-color: var(--brand);
+  padding: 56px 16px;
+  border-radius: 10px;
+  margin: 5px 10px;
+}
+
+.about-me h2 {
+  font-size: 2rem;
+  margin-bottom: 24px;
+  color: var(--white);
+}
+
+.about-me-description {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+
+.contact {
+  background-color: var(--brand);
+  padding: 56px 16px;
+  border-radius: 10px;
+  margin: 5px 10px;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 24px;
+  color: var(--white);
+}
+
+.contact-description {
+  color: var(--white);
+}
+
+footer {
+  padding: 16px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer a:has(img) {
+  text-decoration: none;
+}
+
+.socials-icon {
+  width: 50px;
+  height: 50px;
+}
+
+footer .acknowledgement {
+  width: 50px;
+  height: 50px;
 }

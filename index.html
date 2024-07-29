@@ -4,13 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Isabela | Portfolio</title>
-    <link rel="stylesheet" href=".src/style.css" />
+    <link rel="stylesheet" href="./src/style.css" />
   </head>
 
   <body>
     <header>
       <div class="mobile-header">
-        <button type="button" class="hamburguer-icon"></button>
+        <button type="button" class="hamburguer-icon">
+          <img
+            class="hamburger-icon"
+            src="/hamburger.svg"
+            alt="Three horizontal lines, positioned one above the other"
+          />
+        </button>
       </div>
       <nav class="desktop-nav" aria-label="Primary">
         <ul>
@@ -44,23 +50,54 @@
           </li>
         </ul>
       </nav>
+      <button id="theme-toggle">🌓</button>
     </header>
     <section class="hero-welcome">
       <h1>welcome,</h1>
       <p class="hero-welcome-message">
-        to a website that will change once I know what I'm doing.
+        to a website that will be a forever work in progress.
       </p>
     </section>
+    <section class="work">
+      <h2>work</h2>
+      <p class="work-description">I have worked on...</p>
+    </section>
+    <section class="about-me">
+      <h2>about me</h2>
+      <p class="about-me-description">I'm....'</p>
+    </section>
+    <section class="contact">
+      <h2>let's chat</h2>
+      <p class="contact-description">text text tex</p>
+    </section>
     <footer>
-      <a href="#" title="github">
-        <img class="#" src="#" alt="#" />
+      <a
+        href="https://github.com/isabelaalcantara1"
+        title="github"
+        target="_blank"
+      >
+        <img class="socials-icon" src="./img/github.svg" alt="#" />
       </a>
-      <a href="#" title="linkedin">
-        <img class="#" src="#" alt="#" />
+      <a
+        href="https://www.linkedin.com/in/isabela-alcantara/"
+        title="linkedin"
+        target="_blank"
+      >
+        <img class="socials-icon" src="./img/linkedin.png" alt="#" />
       </a>
-      <a href="#" title="email">
-        <img class="#" src="#" alt="#" />
+      <a href="mailto:isabela.iar01@gmail.com" title="email" target="_blank">
+        <img class="socials-icon" src="./img/mail.png" alt="#" />
       </a>
+      <div class="acknowledgement">
+        <img class="flag-1" src="./img/indigenous flag.jpg" alt="" />
+        <img class="flag-2" src="./img/torres strait islander.jpg" alt="" />
+        <p>
+          this website was designed by a Brazilian person at
+          <a href="https://www.turrbal.com.au/" target="_blank"
+            >Turrbal Yaggera land</a
+          >
+        </p>
+      </div>
     </footer>
   </body>
 </html>
