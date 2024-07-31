@@ -1,33 +1,31 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap");
-
-:root {
-  --brand: #8246af;
-  --action: #ffa300;
-  --white: #ffff;
-  --base-light: #cdb5df;
-  --base-dark: #0d0711;
-  --black: #111111;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
 html {
   box-sizing: border-box;
   font-size: 16px;
-  font-family: "Inter", sans-serif;
-  color: var(--black);
+  font-family: "Fraunces", serif;
+  color: black;
   scroll-behavior: smooth;
-  background-color: #f2f2f2;
+  background-color: #f7f7fb;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 .hero-welcome-message {
-  background-color: #f2f2f2;
-  color: black;
-  border-radius: 10px auto;
+  background-color: #fff;
+  color: #171717;
+  border-radius: 10px;
   margin: 5px 10px;
 }
 
 ol,
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 img {
@@ -35,13 +33,37 @@ img {
   height: auto;
 }
 
-/* Utilities */
+header .isabela {
+  justify-content: left;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  background-color: #171717;
+  border: none;
+  color: white;
+  font-weight: bold;
+  padding: 0.2rem 0.6rem;
+}
+
+header .isabela-link {
+  text-decoration: none;
+}
+
+.isabela:hover {
+  background-color: white;
+  color: #171717;
+  transition: 0.5s ease;
+  border: 1px solid #171717;
+}
 
 header .mobile-header {
-  padding: 16px;
+  padding: 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+header button {
+  all: unset;
 }
 
 .mobile-nav a {
@@ -55,97 +77,603 @@ header .mobile-header {
 }
 
 .hamburger-icon {
-  height: 50px;
+  height: 3rem;
 }
 
-.hero-welcome {
-  background-color: var(--brand);
-  padding: 56px 16px;
-  border-radius: 10px;
-  margin: 5px 10px;
+.desktop-nav ul,
+.mobile-nav ul {
+  padding: 0;
 }
 
-.hero-welcome h1 {
-  font-size: 3rem;
-  margin-bottom: 24px;
-  color: var(--white);
+.h1-hello {
+  font-size: 13vw;
+  font-weight: 900;
+  margin-left: 6.5%;
+  margin-top: 10rem;
+  margin-bottom: 0;
+}
+
+.h1-world {
+  font-size: 8.5vw;
+  font-weight: 400;
+  margin-left: 6.9%;
+  margin-top: -3rem;
 }
 
 .hero-welcome-message {
-  background-color: #f2f2f2;
+  font-size: 1.5rem;
   border-radius: 10px;
+  color: #171717;
+  background-color: #7bf29c;
+  width: 90%;
+  max-width: 500px;
+  padding: 1.2rem;
+  margin-bottom: 7rem;
+  margin-left: 460px;
+  margin-top: -240px;
 }
 
-.work {
-  background-color: var(--brand);
-  padding: 56px 16px;
-  border-radius: 10px;
-  margin: 5px 10px;
+.separation-1 {
+  align-items: center;
+  margin-top: -1rem;
+  margin-bottom: -2rem;
 }
 
-.work h2 {
-  font-size: 2rem;
-  margin-bottom: 24px;
-  color: var(--white);
-}
-
-.work-description {
-  background-color: #f2f2f2;
-  border-radius: 10px;
-}
-
+/* About me */
 .about-me {
-  background-color: var(--brand);
-  padding: 56px 16px;
-  border-radius: 10px;
-  margin: 5px 10px;
+  background-color: #f7f7fb;
+  padding: 1rem;
 }
 
-.about-me h2 {
-  font-size: 2rem;
-  margin-bottom: 24px;
-  color: var(--white);
+.h2-about {
+  font-size: 4.8rem;
+  font-weight: 400;
+  margin-left: 5%;
+  color: #171717;
+  margin-bottom: 0;
+}
+
+.h2-me {
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin-left: 5%;
+  color: #171717;
+  /* margin-top: -1rem; */
+}
+
+.about-me-isabela-pic {
+  border-radius: 100%;
+  width: 50%;
+  max-width: 300px;
+  display: block;
 }
 
 .about-me-description {
-  background-color: #f2f2f2;
+  background-color: pink;
+  color: #171717;
   border-radius: 10px;
+  width: 90%;
+  max-width: 680px;
+  padding: 2.7rem;
+  font-size: 1.375rem;
+  font-weight: 300;
+  text-align: center;
 }
 
+.full-stack-developer {
+  font-weight: 500;
+}
+
+.separation-2 {
+  align-items: center;
+  margin-top: -1rem;
+  margin-bottom: -2rem;
+}
+
+/* Work */
+.work {
+  background-color: #f7f7fb;
+  margin-bottom: 5rem;
+}
+
+.work-title {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.work-1 {
+  font-size: 3.75rem;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.work-2 {
+  font-size: 4.375rem;
+  font-weight: 600;
+  margin-top: -1.25rem;
+  margin-bottom: 0;
+}
+
+.work-3 {
+  font-size: 5rem;
+  font-weight: 900;
+  margin-top: -1.5rem;
+  margin-bottom: 0;
+}
+
+.tunamelts-1,
+.tunamelts-2 {
+  border-radius: 10px;
+  width: 90%;
+  max-width: 400px;
+  display: block;
+  margin: 2rem auto;
+  transition: 0.3s ease;
+}
+
+.tunamelts-1:hover,
+.tunamelts-2:hover {
+  transform: scale(1.1);
+}
+
+.h3-box-1,
+.h3-box-2 {
+  background-color: #fbed80;
+  color: #171717;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.h3-work-title-1,
+.h3-work-title-2 {
+  font-size: 1.875rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.h3-work-description-1,
+.h3-work-description-2 {
+  font-size: 1.125rem;
+  font-weight: 300;
+}
+
+.tech-stack,
+.tech-stack-2 {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.tech-stack button,
+.tech-stack-2 button {
+  border-radius: 15px;
+  background-color: #f7f7fb;
+  border: 1.5px solid #fcde00;
+  font-size: 0.75rem;
+  padding: 0.3rem;
+  font-family: "fraunces", serif;
+  font-weight: 400;
+}
+
+/* Contact */
 .contact {
-  background-color: var(--brand);
-  padding: 56px 16px;
-  border-radius: 10px;
-  margin: 5px 10px;
+  background-color: #f7f7fb;
+  padding: 2rem;
+  margin-bottom: 5rem;
+  text-align: center;
 }
 
-.contact h2 {
-  font-size: 2rem;
-  margin-bottom: 24px;
-  color: var(--white);
+.contact-title {
+  font-size: 5rem;
+}
+
+.contact-title-chat {
+  font-size: 3.75rem;
+  font-weight: 400;
+}
+
+.contact-chat-circle {
+  background-color: #ff7f55;
+  color: #171717;
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+  margin: 2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact-description {
-  color: var(--white);
+  font-size: 1.2rem;
+  text-align: left;
+  font-weight: 300;
+  color: white;
+}
+
+.contact-description ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact-description ul li {
+  margin: 10px 0;
+}
+
+.contact-description ul li a {
+  text-decoration: none;
+  color: white; /* Icons and words beside icons */
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.contact-description ul li a i {
+  margin-right: 8px;
+  font-size: 1.5em;
+}
+
+.end-of-page {
+  border-top: 1px solid black;
+  margin-top: 2rem;
 }
 
 footer {
-  padding: 16px;
-  text-align: center;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  color: var(--white);
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.footer-left img {
+  margin-right: 0.5rem;
+}
+
+.footer-text,
+.footer-text-link {
+  align-items: center;
+  color: rgb(57, 57, 57);
+}
+
+.footer-right {
+  display: flex;
+  gap: 1rem;
+  margin-right: 10px;
+}
+
+footer .socials-icon {
+  width: 2.1rem;
+  height: 2.1rem;
 }
 
 footer a:has(img) {
   text-decoration: none;
 }
 
-.socials-icon {
-  width: 50px;
-  height: 50px;
+.desktop-nav a,
+.mobile-nav a {
+  text-decoration: none;
+  font-size: larger;
+  color: var(--black);
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  border-radius: 5px;
 }
 
-footer .acknowledgement {
-  width: 50px;
-  height: 50px;
+#home-btn:hover,
+#home-btn-mobile:hover {
+  background-color: #7bf29c;
+}
+
+#about-me-btn:hover,
+#about-me-btn-mobile:hover {
+  background-color: pink;
+}
+
+#work-btn:hover,
+#work-btn-mobile:hover {
+  background-color: #fbed80;
+}
+
+#contact-btn:hover,
+#contact-btn-mobile:hover {
+  background-color: #ff7f55;
+}
+
+.desktop-nav a.active,
+.mobile-nav a.active {
+  background-color: var(--action);
+}
+
+/* DESKTOP */
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    background-color: #f7f7fb;
+  }
+
+  body {
+    padding-top: 80px;
+  }
+
+  header nav ul {
+    display: flex;
+    gap: 1.5rem;
+    margin-right: 1rem;
+    margin-left: auto;
+  }
+
+  header .mobile-header .hamburger-icon {
+    display: none;
+  }
+
+  .desktop-nav {
+    display: inline-block;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+
+  .hero-welcome-message {
+    width: 50%;
+    max-width: 400px;
+    padding-left: 30px;
+    font-weight: 350;
+  }
+
+  .h2-about,
+  .h2-me {
+    margin-left: 220px;
+    margin-top: 30px;
+  }
+
+  .h2-me {
+    margin-top: -30px;
+  }
+
+  .about-me-description {
+    margin-top: -200px;
+    margin-left: 590px;
+    width: 90%;
+    margin-bottom: 120px;
+  }
+
+  .about-me-isabela-pic {
+    border-radius: 100%;
+    width: 50%;
+    max-width: 300px;
+    display: block;
+    margin-left: 330px;
+    margin-top: -120px;
+  }
+
+  .work-title {
+    text-align: left;
+    margin-left: 290px;
+  }
+
+  .tunamelts-1,
+  .tunamelts-2 {
+    margin: 1rem auto;
+  }
+
+  .h3-box-1,
+  .h3-box-2 {
+    margin: 1rem auto;
+  }
+
+  .contact-title,
+  .contact-title-chat {
+    text-align: left;
+    margin-left: 21%;
+    margin-top: -20px;
+  }
+
+  .contact-title-chat {
+    margin-top: -100px;
+  }
+
+  .contact-chat-circle {
+    margin-top: -120px;
+    margin-left: 510px;
+    margin-bottom: -40px;
+  }
+
+  .contact-description ul {
+    flex-direction: column;
+    justify-content: flex-start;
+    /* flex-wrap: wrap; */
+  }
+
+  .contact-description ul li {
+    margin: 10px 0;
+  }
+  .footer-left img {
+    width: 90px;
+    height: auto;
+  }
+
+  .footer-text {
+    flex-grow: 1;
+    text-align: left;
+    /* padding-left: 1rem; */
+  }
+}
+
+/* MOBILE */
+@media (max-width: 767px) {
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+
+  .h1-hello {
+    font-size: 14vh;
+    margin-left: 90px;
+    margin-top: 100px;
+  }
+
+  .h1-world {
+    font-size: 9vh;
+    margin-left: 90px;
+    margin-top: -20px;
+  }
+  .hero-welcome-message {
+    margin-top: -60px;
+    margin-bottom: 70px;
+    margin-left: 73px;
+    width: 60%;
+    font-size: 1.15rem;
+    font-weight: 350;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+  }
+
+  .h2-about {
+    margin-top: 25px;
+    margin-left: 110px;
+  }
+
+  .h2-me {
+    margin-top: -20px;
+    margin-left: 140px;
+  }
+
+  .about-me-isabela-pic {
+    border-radius: 100%;
+    width: 50%;
+    max-width: 300px;
+    display: block;
+    margin-left: 90px;
+    margin-top: -35px;
+  }
+
+  .about-me-description {
+    width: 90%;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-left: 20px;
+    margin-bottom: 60px;
+    padding: 23px 23px 23px 23px;
+  }
+
+  .work-title,
+  .work-1,
+  .work-2,
+  .work-3 {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .work-1 {
+    margin-top: 35px;
+  }
+
+  .tunamelts-1,
+  .tunamelts-2,
+  .h3-box-1,
+  .h3-box-2 {
+    margin: 1rem auto;
+    width: 90%;
+  }
+
+  .h3-box-1 {
+    padding-bottom: 30px;
+  }
+
+  .contact-title,
+  .contact-title-chat {
+    text-align: center;
+  }
+
+  .contact-title {
+    margin-top: 35px;
+  }
+
+  .contact-title-chat {
+    margin-top: -85px;
+  }
+
+  .contact-chat-circle {
+    width: 350px;
+    height: 350px;
+    margin-bottom: -30px;
+  }
+
+  .contact-description ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .contact-description ul li a {
+    text-decoration: none;
+    color: #f7f7fb;
+    display: flex;
+    align-items: center;
+  }
+
+  .contact-description ul li a:hover {
+    text-decoration: underline;
+  }
+
+  .contact-description i {
+    margin-right: 8px;
+    font-size: 1.5em;
+  }
+
+  .contact-description a {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: 350;
+  }
+
+  .footer-left img {
+    width: 80px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 10px;
+  }
+
+  .footer-text {
+    /* text-align: left; */
+    padding-left: -50px;
+    margin-top: 25px;
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .footer-right {
+    margin-left: 130px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
 }

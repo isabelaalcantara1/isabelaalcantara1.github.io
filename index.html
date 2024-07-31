@@ -5,99 +5,180 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Isabela | Portfolio</title>
     <link rel="stylesheet" href="./src/style.css" />
+    <link rel="shortcut icon" type="image/png" href="./img/favicon2.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
   </head>
 
   <body>
     <header>
       <div class="mobile-header">
-        <button type="button" class="hamburguer-icon">
+        <a href="#hello" class="isabela-link"
+          ><button class="isabela">isabela.</button></a
+        >
+
+        <!-- <button type="button" class="hamburger-button">
           <img
             class="hamburger-icon"
-            src="/hamburger.svg"
+            src="./img/hamburger.svg"
             alt="Three horizontal lines, positioned one above the other"
           />
-        </button>
+        </button> -->
       </div>
       <nav class="desktop-nav" aria-label="Primary">
         <ul>
           <li>
-            <a href="">home</a>
+            <a href="#hello" id="home-btn">home</a>
           </li>
           <li>
-            <a href="">work</a>
+            <a href="#about-me" id="about-me-btn">about me</a>
           </li>
           <li>
-            <a href="">about me</a>
+            <a href="#work" id="work-btn">work</a>
           </li>
           <li>
-            <a href="">contact</a>
+            <a href="#contact" id="contact-btn">contact</a>
           </li>
         </ul>
       </nav>
       <nav class="mobile-nav display-none" aria-label="Primary">
         <ul>
           <li>
-            <a href="">home</a>
+            <a href="#hello" id="home-btn-mobile">home</a>
           </li>
           <li>
-            <a href="">work</a>
+            <a href="#about-me" id="about-me-btn-mobile">about me</a>
           </li>
           <li>
-            <a href="">about me</a>
+            <a href="#work" id="work-btn-mobile">work</a>
           </li>
           <li>
-            <a href="">contact</a>
+            <a href="#contact" id="contact-btn-mobile">contact</a>
           </li>
         </ul>
       </nav>
-      <button id="theme-toggle">🌓</button>
+      <!-- <button id="change-theme">🌓</button> -->
     </header>
-    <section class="hero-welcome">
-      <h1>welcome,</h1>
+    <section id="hello" class="hero-hello-world">
+      <h1 class="h1-hello"><strong>hello</strong>,</h1>
+      <h1 class="h1-world">world.</h1>
       <p class="hero-welcome-message">
-        to a website that will be a forever work in progress.
+        Welcome to a website that will <em>forever</em> be a work in progress.
       </p>
+      <img class="separation-1" src="/img/separation.svg" alt="" />
     </section>
-    <section class="work">
-      <h2>work</h2>
-      <p class="work-description">I have worked on...</p>
-    </section>
-    <section class="about-me">
-      <h2>about me</h2>
-      <p class="about-me-description">I'm....'</p>
-    </section>
-    <section class="contact">
-      <h2>let's chat</h2>
-      <p class="contact-description">text text tex</p>
-    </section>
-    <footer>
-      <a
-        href="https://github.com/isabelaalcantara1"
-        title="github"
-        target="_blank"
-      >
-        <img class="socials-icon" src="./img/github.svg" alt="#" />
-      </a>
-      <a
-        href="https://www.linkedin.com/in/isabela-alcantara/"
-        title="linkedin"
-        target="_blank"
-      >
-        <img class="socials-icon" src="./img/linkedin.png" alt="#" />
-      </a>
-      <a href="mailto:isabela.iar01@gmail.com" title="email" target="_blank">
-        <img class="socials-icon" src="./img/mail.png" alt="#" />
-      </a>
-      <div class="acknowledgement">
-        <img class="flag-1" src="./img/indigenous flag.jpg" alt="" />
-        <img class="flag-2" src="./img/torres strait islander.jpg" alt="" />
-        <p>
-          this website was designed by a Brazilian person at
-          <a href="https://www.turrbal.com.au/" target="_blank"
-            >Turrbal Yaggera land</a
-          >
+    <section id="about-me" class="about-me">
+      <h2 class="h2-about">about</h2>
+      <h2 class="h2-me">me.</h2>
+      <img class="about-me-isabela-pic" src="./img/isabela-pic.png" alt="" />
+      <div class="about-me-content">
+        <p class="about-me-description">
+          Hi, I'm Isabela 👋 Over three decades trying new things, excelling in
+          some and failing terribly in others. My latest 'big thing' is the
+          endeavour of becoming a
+          <strong class="full-stack-developer">full-stack developer</strong>.
+          Hopefully, soon, I'll look back at this website and feel terribly
+          ashamed of this <em>chef's kiss</em> creation. But for now, I'm
+          enjoying the process of creating something within my current skills.
         </p>
       </div>
+    </section>
+    <img class="separation-2" src="./img/separation2.svg" alt="" />
+
+    <section id="work" class="work">
+      <div class="work-title">
+        <h2 class="work-1">work</h2>
+        <h2 class="work-2">work</h2>
+        <h2 class="work-3">work.</h2>
+      </div>
+      <img class="tunamelts-1" src="./img/tunamelts.jpg" alt="" />
+      <div class="h3-box-1">
+        <h3 class="h3-work-title-1">Work title here</h3>
+        <p class="h3-work-description-1">
+          Description here, description here, description here, description
+          here, Okay, ladies, now let's get in formation. Okay, ladies, now
+          let's get in formation. Prove to me you got some coordination. Slay
+          trick, or you get eliminated. <a href=""> link</a>
+        </p>
+        <br />
+        <div class="tech-stack">
+          <button>HTML</button>
+          <button>CSS</button>
+          <button>JavaScript</button>
+          <button>React</button>
+          <button>Anxiety</button>
+        </div>
+      </div>
+    </section>
+    <img class="separation-1" src="./img/separation.svg" alt="" />
+    <section id="contact" class="contact">
+      <div class="contact-lets-chat-titles">
+        <h2 class="contact-title">contact.</h2>
+        <br />
+        <h2 class="contact-title-chat">let's chat</h2>
+      </div>
+      <div class="contact-chat-circle">
+        <div class="contact-description">
+          <ul>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/isabela-alcantara"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i> LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="mailto:isabela.iar01@gmail.com"
+                ><i class="fas fa-envelope"></i> Email</a
+              >
+            </li>
+            <li>
+              <a href="./docs/Isabela Alcantara_Resume .pdf" download
+                ><i class="fas fa-file-download"></i> My resume</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <img class="separation-2" src="./img/separation2.svg" alt="" />
+
+    <footer>
+      <div class="footer-left">
+        <img class="flag" src="./img/flags.png" alt="Indigenous Flag" />
+        <p class="footer-text">
+          This website was designed by a Brazilian in
+          <a
+            href="https://meanjin.com.au/about-meanjin/"
+            target="_blank"
+            class="footer-text-link"
+          >
+            Meanjin</a
+          >.
+        </p>
+      </div>
+      <div class="footer-right">
+        <a
+          href="https://github.com/isabelaalcantara1"
+          title="github"
+          target="_blank"
+        >
+          <img class="socials-icon" src="./img/github.svg" alt="GitHub" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/isabela-alcantara/"
+          title="linkedin"
+          target="_blank"
+        >
+          <img class="socials-icon" src="./img/linkedin.png" alt="LinkedIn" />
+        </a>
+        <a href="mailto:isabela.iar01@gmail.com" title="email" target="_blank">
+          <img class="socials-icon" src="./img/mail.png" alt="Email" />
+        </a>
+      </div>
     </footer>
+    <script src="./src/script.js"></script>
   </body>
 </html>
