@@ -7,7 +7,6 @@ Welcome to the repository of my very first portfolio website! This project marks
 - [About](#about)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [Contact](#contact)
 
@@ -40,7 +39,7 @@ Let's connect and chat!
 - [LinkedIn](https://www.linkedin.com/in/isabela-alcantara)
 - [Email](mailto:isabela.iar01@gmail.com)
 
-This website was designed by a Brazilian in Meanjin. Proudly crafted with love and a lot of ☕️
+This website was designed by a Brazilian in Meanjin. Proudly crafted with love and a lot of coffee.
 
 
-Thank you for visiting and joining me on this exciting journey!
+Thank you for visiting and joining me on this exciting journey! 🪐
