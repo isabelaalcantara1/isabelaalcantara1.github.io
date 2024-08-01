@@ -39,7 +39,7 @@ Let's connect and chat!
 - [LinkedIn](https://www.linkedin.com/in/isabela-alcantara)
 - [Email](mailto:isabela.iar01@gmail.com)
 
-This website was designed by a Brazilian in Meanjin. Proudly crafted with love and a lot of coffee.
+This website was designed by a Brazilian in [Meanjin](https://www.turrbal.com.au/our-story). Proudly crafted with love and a lot of coffee.
 
 
 Thank you for visiting and joining me on this exciting journey! 🪐
