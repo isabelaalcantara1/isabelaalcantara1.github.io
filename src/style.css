@@ -498,8 +498,10 @@ footer a:has(img) {
 
   .contact-chat-circle {
     margin-top: -120px;
-    margin-left: 510px;
+    margin-left: 550px;
     margin-bottom: -40px;
+    width: 400px; /* Further adjust size for mobile screens */
+    height: 400px;
   }
 
   .contact-description ul {
@@ -618,7 +620,7 @@ footer a:has(img) {
   }
 
   .contact-title-chat {
-    margin-top: -70px;
+    margin-top: -65px;
     font-size: 45px;
   }
 
