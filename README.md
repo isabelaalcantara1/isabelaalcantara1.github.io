@@ -1,4 +1,4 @@
-# Isabela Alcantara's Portfolio Website
+# Isabela Alcantara - Portfolio Task
 
 Welcome to the repository of my very first portfolio website! This project marks the beginning of my journey into web development. It's simple now, but with every bit of code, soon it will grow to something majestic.
 
