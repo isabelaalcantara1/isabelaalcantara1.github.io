@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+
 html {
   box-sizing: border-box;
   font-size: 16px;
@@ -96,8 +97,10 @@ header button {
 .h1-world {
   font-size: 8.5vw;
   font-weight: 400;
-  margin-left: 6.9%;
-  margin-top: -3rem;
+  margin: 0 auto;
+  text-align: left;
+  margin-left: 6.5%;
+  display: block;
 }
 
 .hero-welcome-message {
@@ -105,21 +108,15 @@ header button {
   border-radius: 10px;
   color: #171717;
   background-color: #7bf29c;
-  width: 90%;
-  max-width: 500px;
-  padding: 1.2rem;
-  margin-bottom: 7rem;
-  margin-left: 460px;
-  margin-top: -240px;
+  width: auto;
+  padding: 1rem;
+  display: block;
+  margin-left: 0.5rem;
+  margin-top: -1.5rem;
+  display: inline-block;
+  height: auto;
 }
 
-.separation-1 {
-  align-items: center;
-  margin-top: -1rem;
-  margin-bottom: -2rem;
-}
-
-/* About me */
 .about-me {
   background-color: #f7f7fb;
   padding: 1rem;
@@ -138,7 +135,6 @@ header button {
   font-weight: 700;
   margin-left: 5%;
   color: #171717;
-  /* margin-top: -1rem; */
 }
 
 .about-me-isabela-pic {
@@ -146,6 +142,7 @@ header button {
   width: 50%;
   max-width: 300px;
   display: block;
+  margin: -50px auto 0;
 }
 
 .about-me-description {
@@ -153,24 +150,29 @@ header button {
   color: #171717;
   border-radius: 10px;
   width: 90%;
-  max-width: 680px;
+  max-width: 500px;
   padding: 2.7rem;
   font-size: 1.375rem;
   font-weight: 300;
   text-align: center;
+  margin: -30px auto 0;
 }
 
 .full-stack-developer {
   font-weight: 500;
 }
 
+.separation-1,
 .separation-2 {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
   align-items: center;
   margin-top: -1rem;
   margin-bottom: -2rem;
 }
 
-/* Work */
 .work {
   background-color: #f7f7fb;
   margin-bottom: 5rem;
@@ -179,6 +181,7 @@ header button {
 .work-title {
   text-align: center;
   margin: 0 auto;
+  max-width: 100%;
 }
 
 .work-1 {
@@ -260,7 +263,6 @@ header button {
   font-weight: 400;
 }
 
-/* Contact */
 .contact {
   background-color: #f7f7fb;
   padding: 2rem;
@@ -275,6 +277,7 @@ header button {
 .contact-title-chat {
   font-size: 3.75rem;
   font-weight: 400;
+  margin-top: 0.2rem;
 }
 
 .contact-chat-circle {
@@ -283,7 +286,7 @@ header button {
   border-radius: 50%;
   width: 400px;
   height: 400px;
-  margin: 2rem auto;
+  margin: 0.5rem auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -310,7 +313,7 @@ header button {
 
 .contact-description ul li a {
   text-decoration: none;
-  color: white; /* Icons and words beside icons */
+  color: white;
   display: flex;
   align-items: center;
   font-size: 18px;
@@ -401,7 +404,7 @@ footer a:has(img) {
   background-color: var(--action);
 }
 
-/* DESKTOP */
+/* DESKTOP TABLET */
 @media (min-width: 768px) {
   header {
     display: flex;
@@ -437,82 +440,118 @@ footer a:has(img) {
     display: none;
   }
 
-  .hero-welcome-message {
-    width: 50%;
-    max-width: 400px;
-    padding-left: 30px;
-    font-weight: 350;
+  .h1-hello {
+    font-size: 10vw;
+    margin-left: 10%;
+    margin-top: 10rem;
   }
 
+  .h1-world {
+    font-size: 6vw;
+    margin-left: 10%;
+    margin-top: -10px;
+    display: inline-block;
+  }
+
+  .hero-welcome-message {
+    font-size: 1.3rem;
+    border-radius: 10px;
+    color: #171717;
+    background-color: #7bf29c;
+    width: auto;
+    padding: 1rem;
+    display: inline-block;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    /* margin-bottom: 70px; */
+    max-width: 330px;
+    white-space: normal;
+  }
+
+  .h1-world,
+  .hero-welcome-message {
+    margin-bottom: 80px;
+  }
   .h2-about,
   .h2-me {
-    margin-left: 220px;
-    margin-top: 30px;
+    margin-left: 25%;
+    margin-top: 22px;
+    align-items: center;
   }
 
   .h2-me {
-    margin-top: -30px;
-  }
-
-  .about-me-description {
-    margin-top: -200px;
-    margin-left: 590px;
-    width: 90%;
-    margin-bottom: 120px;
+    margin-top: -12px;
   }
 
   .about-me-isabela-pic {
     border-radius: 100%;
     width: 50%;
-    max-width: 300px;
+    max-width: 330px;
     display: block;
-    margin-left: 330px;
-    margin-top: -120px;
+    margin-left: auto;
+    margin-top: -5.5rem;
+    align-items: center;
   }
 
+  .about-me-description {
+    background-color: pink;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    color: #171717;
+    width: 70%;
+    max-width: 600px;
+    padding: 1.5rem;
+    margin-top: 0.4rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    text-align: center;
+    height: auto;
+  }
+
+  .about-me-isabela-pic,
+  .about-me-description {
+    margin-bottom: 50px;
+  }
   .work-title {
     text-align: left;
-    margin-left: 290px;
-  }
-
-  .tunamelts-1,
-  .tunamelts-2 {
-    margin: 1rem auto;
-  }
-
-  .h3-box-1,
-  .h3-box-2 {
-    margin: 1rem auto;
+    margin-left: 14%;
+    margin-top: 25px;
   }
 
   .contact-title,
   .contact-title-chat {
-    text-align: left;
-    margin-left: 21%;
-    margin-top: -20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+  }
+
+  .contact-title {
+    font-size: 4rem;
   }
 
   .contact-title-chat {
-    margin-top: -100px;
+    margin-top: -3rem;
+    font-size: 3rem;
   }
 
   .contact-chat-circle {
-    margin-top: -120px;
-    margin-left: 550px;
-    margin-bottom: -40px;
-    width: 400px; /* Further adjust size for mobile screens */
+    width: 400px;
     height: 400px;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 
-  .contact-description ul {
-    flex-direction: column;
-    justify-content: flex-start;
-    /* flex-wrap: wrap; */
+  .separation-1,
+  .separation-2 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
   }
 
-  .contact-description ul li {
-    margin: 10px 0;
-  }
   .footer-left img {
     width: 90px;
     height: auto;
@@ -521,11 +560,11 @@ footer a:has(img) {
   .footer-text {
     flex-grow: 1;
     text-align: left;
-    /* padding-left: 1rem; */
   }
 }
 
 /* MOBILE */
+
 @media (max-width: 767px) {
   .desktop-nav {
     display: none;
@@ -539,22 +578,30 @@ footer a:has(img) {
     font-size: 14vh;
     margin-left: 60px;
     margin-top: 100px;
+    display: block;
   }
 
   .h1-world {
     font-size: 9vh;
-    margin-left: 90px;
+    margin-left: 60px;
+    /* text-align: center; */
     margin-top: -20px;
+    display: block;
   }
+
   .hero-welcome-message {
-    margin-top: -60px;
-    margin-bottom: 70px;
-    margin-left: 73px;
+    font-size: 1rem;
+    border-radius: 10px;
+    color: #171717;
+    background-color: #7bf29c;
     width: 60%;
-    font-size: 1.15rem;
-    font-weight: 350;
-    padding: 20px 20px 20px 20px;
+    padding: 1.5rem;
+    margin-top: 0.4rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    height: auto;
   }
 
   .h2-about {
@@ -572,15 +619,15 @@ footer a:has(img) {
     width: 50%;
     max-width: 300px;
     display: block;
-    margin-left: 90px;
-    margin-top: -35px;
+    margin: -50px auto 0;
   }
 
   .about-me-description {
     width: 90%;
-    font-size: 1rem;
-    margin-top: 1rem;
-    margin-left: 20px;
+    font-size: 1.15rem;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 60px;
     padding: 23px 23px 23px 23px;
   }
@@ -612,6 +659,7 @@ footer a:has(img) {
   .contact-title,
   .contact-title-chat {
     text-align: center;
+    margin-top: 0.2rem;
   }
 
   .contact-title {
@@ -620,15 +668,17 @@ footer a:has(img) {
   }
 
   .contact-title-chat {
-    margin-top: -65px;
+    margin-top: -4rem;
     font-size: 45px;
   }
 
   .contact-chat-circle {
     width: 350px;
     height: 350px;
-    margin-bottom: -30px;
-    margin-left: -25px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .contact-description ul {
@@ -669,7 +719,6 @@ footer a:has(img) {
   }
 
   .footer-text {
-    /* text-align: left; */
     padding-left: -50px;
     margin-top: 25px;
     text-align: left;
