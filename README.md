@@ -27,7 +27,6 @@ Hi, I'm Isabela 👋 Over three decades trying new things, excelling in some and
 
 - **HTML5**: For structuring the content on the web.
 - **CSS3**: For styling the website and creating responsive layouts.
-- **Font Awesome**: For elegant icons.
 
   
 ## Screenshots
