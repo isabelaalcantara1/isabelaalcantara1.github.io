@@ -35,10 +35,13 @@ Hi, I'm Isabela 👋 Over three decades trying new things, excelling in some and
 ![Desktop home](media/Desktop_home.png)
 _Desktop view homepage_
 
-### Tablet view
-![
+### Tablet 
+![Tablet home](media/Tablet_home.png)
+_Tablet view homepage_
 
-### Mobile view
+### Mobile 
+![Mobile home](media/Mobile_home.png)
+_Mobile view homepage_
 
 ## Contributing
 
