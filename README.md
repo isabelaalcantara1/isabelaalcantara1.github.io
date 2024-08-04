@@ -31,9 +31,12 @@ Hi, I'm Isabela 👋 Over three decades trying new things, excelling in some and
 - 
 ## Screenshots
 
-
+### Desktop
+![Desktop home](media/Desktop_home.png)
+_Desktop view homepage_
 
 ### Tablet view
+![
 
 ### Mobile view
 
