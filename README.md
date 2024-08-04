@@ -28,24 +28,26 @@ Hi, I'm Isabela 👋 Over three decades trying new things, excelling in some and
 - **HTML5**: For structuring the content on the web.
 - **CSS3**: For styling the website and creating responsive layouts.
 - **Font Awesome**: For elegant icons.
-- 
+
+  
 ## Screenshots
 
 ### Desktop
-![Desktop home](media/Desktop_home.png)
-_Desktop view homepage_
+<img src="media/Desktop_home.png" alt="Desktop home page" width="200" />
+_Desktop view home page_
 
 ### Tablet 
-![Tablet home](media/Tablet_home.png)
-_Tablet view homepage_
+<img src="media/Tablet_home.png" alt="Tablet home page" width="200" />
+_Tablet view home page_
 
 ### Mobile 
-![Mobile home](media/Mobile_home.png)
-_Mobile view homepage_
+<img src="media/Mobile_home.png" alt="Mobile home page" width="200" />
+_Mobile view home page_
 
 ## Contributing
 
 I welcome contributions and suggestions! If you have any ideas to improve the site or find a bug, please create an issue or submit a pull request.
+
 
 ## Contact
 
