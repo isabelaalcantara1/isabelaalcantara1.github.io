@@ -1,5 +1,7 @@
 # Isabela Alcantara - Portfolio Task
 
+[My Portfolio Site](https://isabelaalcantara1.github.io/) 👾
+
 Welcome to the repository of my very first portfolio website! This project marks the beginning of my journey into web development. It's simple now, but with every bit of code, soon it will grow to something majestic.
 
 ## Table of Contents
@@ -16,17 +18,24 @@ Hi, I'm Isabela 👋 Over three decades trying new things, excelling in some and
 
 ## Features
 
-- **Responsive Design**: Ensuring a seamless experience on both desktop and mobile devices.
-- **Modern Aesthetic**: Clean and minimalistic design to highlight content without distractions.
-- **Easy Navigation**: Simple and intuitive navigation to guide visitors through the site.
-- **Dynamic Content**: Sections for "About Me," "Work," and "Contact" with links to my social profiles and resume.
+- **Responsive design**: Ensuring a seamless experience on both desktop and mobile devices.
+- **Clean aesthetic**: Clean and minimalistic design to highlight content without distractions.
+- **Easy navigation**: Simple and intuitive navigation to guide visitors through the site.
+- **Dynamic content**: Sections for "About Me," "Work," and "Contact" with links to my social profiles and resume.
 
 ## Technologies Used
 
 - **HTML5**: For structuring the content on the web.
 - **CSS3**: For styling the website and creating responsive layouts.
 - **Font Awesome**: For elegant icons.
+- 
+## Screenshots
 
+
+
+### Tablet view
+
+### Mobile view
 
 ## Contributing
 
@@ -39,7 +48,7 @@ Let's connect and chat!
 - [LinkedIn](https://www.linkedin.com/in/isabela-alcantara)
 - [Email](mailto:isabela.iar01@gmail.com)
 
-This website was designed by a Brazilian in [Meanjin](https://www.turrbal.com.au/our-story). Proudly crafted with love and a lot of coffee.
+This website was designed by a Brazilian in [Meanjin](https://www.turrbal.com.au/our-story). Proudly crafted with love, sweat and a lot of coffee.
 
 
-Thank you for visiting and joining me on this exciting journey! 🪐
+Thank you for visiting and joining me on this journey! 🪐
